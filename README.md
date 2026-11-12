@@ -4,7 +4,7 @@
 
 A Equilibria transforma as tarefas do dia a dia académico (entregar um trabalho, cumprir uma sessão de estudo, preparar um exame) em pequenos passos de um percurso visível, tratando o descanso e o autocuidado como parte do progresso e não como tempo perdido.
 
-> **Estado atual:** fase inicial. O design do jogo está concluído (ver [`docs/`](docs/)); a implementação está a começar.
+> **Estado atual:** fase inicial. O Game Design Document (GDD) está parcialmente concluído (ver [`docs/`](docs/)); o desenho da interface e a implementação ainda não começaram.
 
 ## Porquê a Equilibria?
 
@@ -39,7 +39,7 @@ A progressão valoriza o **equilíbrio e a participação**, e não as notas ele
 
 - [Vue.js](https://vuejs.org/) no front end
 - [Pinia](https://pinia.vuejs.org/) para o estado global
-- GitHub Pages para a demonstração (??)
+- GitHub Pages para a demonstração (previsto)
 
 Estado global (previsto): `userPoints`, `energy`, `currentLevel`, `unlockedRegions`, `unlockedBadges`, `avatar`, `subjects`, `tasks`, `studySessions`, `activeMissions`, `moodLog`, `streak`, `groupGoals`.
 
@@ -57,7 +57,8 @@ npm run dev
 
 ## Roteiro
 
-- [x] Game Design Document (framework 6D, Teoria da Autodeterminação e Teoria do Fluxo)
+- [x] Game Design Document, parte A (framework 6D, Teoria da Autodeterminação e Teoria do Fluxo)
+- [ ] Game Design Document, restantes partes
 - [ ] Wireframes e design da interface
 - [ ] Estrutura inicial do projeto (Vue + Pinia)
 - [ ] Onboarding e criação de avatar
